@@ -39,7 +39,8 @@
 }
 
 .second-section {
-    height: 100vh;
+    min-height: 100vh;
+    max-height: 100%;
 }
 
 .details {
@@ -200,7 +201,13 @@ h5.section-title {
 }
 
 .four-section {
-    height: 100vh;
+    min-height: 100vh;
+    max-height: 100%;
+}
+
+.five-section {
+    min-height: 100vh;
+    max-height: 100%;
 }
 
 .indikosh_title {
@@ -221,6 +228,7 @@ h5.section-title {
 
 .section_3 {
     min-height: 100vh;
+    min-height: 100%;
     height: auto;
 }
 
