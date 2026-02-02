@@ -3,7 +3,8 @@
 }
 
 .first_section {
-    height: 100vh;
+    min-height: 150vh;
+    max-height: 100%;
     width: 100%;
 }
 
@@ -13,14 +14,18 @@
 }
 
 .img_div_2 img {
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
 }
 
 .img_div_2 {
-    left: 50%;
-    bottom: -37.5%;
-    height: 550px;
+    /* left: 50%; */
+    /* bottom: 0%; */
+    /* height: 550px; */
+    left: 55%;
+    bottom: -76%;
+    width: 100%;
+    height: 100%;
 }
 
 .heading_1 {
@@ -299,36 +304,55 @@ h5.section-title {
     font-family: "Inter", sans-serif;
 }
 
-.weight-row:first-child{
+.weight-row:first-child {
     font-weight: 900;
 }
 
-.weight-row:nth-child(2){
+.weight-row:nth-child(2) {
     font-weight: 800;
 }
 
-.weight-row:nth-child(3){
+.weight-row:nth-child(3) {
     font-weight: 700;
 }
 
-.weight-row:nth-child(4){
+.weight-row:nth-child(4) {
     font-weight: 600;
 }
-.weight-row:nth-child(5){
+
+.weight-row:nth-child(5) {
     font-weight: 500;
 }
-.weight-row:nth-child(6){
+
+.weight-row:nth-child(6) {
     font-weight: 400;
 }
 
-.weight-row:nth-child(7){
+.weight-row:nth-child(7) {
     font-weight: 300;
 }
 
-.weight-row:nth-child(8){
+.weight-row:nth-child(8) {
     font-weight: 275;
 }
 
-.weight-row:nth-child(9){
+.weight-row:nth-child(9) {
     font-weight: 250;
+}
+
+.blur-overlay {
+    position: absolute;
+    bottom: -40%;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(
+        to bottom,
+        rgba(255,255,255,0),
+        rgba(255,255,255,1)
+    );
+}
+
+.poppins-text {
+    font-family: "Poppins", sans-serif;
 }
