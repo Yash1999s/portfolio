@@ -143,6 +143,8 @@
 h5.section-title {
     font-weight: 600;
     margin-bottom: 25px;
+    font-family: "Raleway", sans-serif;
+    color: #2F2F2F;
 }
 
 /* Timeline */
@@ -176,19 +178,22 @@ h5.section-title {
 }
 
 .year {
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 6px;
     display: block;
+    color: #2F2F2F;
 }
 
 .title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 15px;
+    color: #2F2F2F;
 }
 
 .place {
     font-size: 14px;
-    color: #777;
+    font-weight: 300;
+    color: #000;
 }
 
 /* Contact */
@@ -206,10 +211,9 @@ h5.section-title {
     width: 20px;
 }
 
-/* Software icons */
-.software-icons i {
-    font-size: 26px;
-    margin-right: 10px;
+.software-icons img{
+    width: 37px;
+    height: 37px;
 }
 
 .figma {
