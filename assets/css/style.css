@@ -441,3 +441,17 @@ h5.section-title {
 }
 
 
+
+
+@media (min-width: 1290px) {
+    img {
+        /* width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+}
+
+img{
+    width: 100%;
+}
