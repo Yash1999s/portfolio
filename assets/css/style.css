@@ -443,12 +443,9 @@ h5.section-title {
 
 
 
-@media (min-width: 1290px) {
-    img {
-        /* width: 70%;
-        display: flex;
-        justify-content: center;
-        align-items: center; */
+@media (max-width: 992px) {
+    .first_section_content h1{
+        font-size: 105px;
     }
 }
 
